@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="/Imagenes/icon.jpg">
+    <link rel="stylesheet" href="../CSS/styles_login.css">
     
     <title>Login | RetroStoreEC</title>
 </head>
@@ -12,10 +12,13 @@
     <div id="contenedor">
         <div id="central">
             <div id="login">
+                <img src="../Imagenes/icon.jpg" alt="Logo" width="110">
                 <div class="titulo">Bienvenido</div>
                 <form id="loginform">
-                    <input type="text" name="usuario" placeholder="Usuario" required >
-                    <input type="password" placeholder="Contraseña" required>
+                    <img src="../Imagenes/User.png" alt="User Icon" width="300"><br>
+                    <input type="text" id="txtUser" placeholder="User ID"><br>
+                    <input type="password" id="txtPassword" placeholder="Enter Password"><br>
+                    <input type="checkbox"> Recordar Contraseña<br>
                     <input type="submit" value="Login">
                 </form>
                 <div class="pie-form">
@@ -28,7 +31,6 @@
             </div>
         </div>
     </div>
-     
     
 </body>
 </html>
